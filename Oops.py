@@ -13,8 +13,7 @@ z = int(input())
 object1 = point(x,y,z)
 print(object1.sqsum()) 
 
-#input:  1,3,5
-#output: 35
+
 
 
 # 2 Implement a Calculator Class
