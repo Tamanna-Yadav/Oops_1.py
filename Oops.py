@@ -22,27 +22,28 @@ class Calculator:
     def __init__(self, num1, num2):
         self.num1 = num1
         self.num2 = num2
+
     def add(self):
         return self.num1 + self.num2
+
     def subtract(self):
         return self.num2 - self.num1
+
     def multiply(self):
         return self.num1 * self.num2
+
     def divide(self):
         return self.num2 / self.num1
-    
-obj = Calculator(10, 94)
-print("Addition of num1 and num2 :",obj.add())       
-print("Subtraction of num1 and num2 :",obj.subtract())  
-print("Multiplication of num1 and num2 :",obj.multiply())  
-print("Division of num1 and num2 :",obj.divide())
 
-# output
 
-#104
-#84
-#940
-#9.4
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+obj = Calculator(num1, num2)
+print(obj.add())      
+print(obj.subtract()) 
+print(obj.multiply()) 
+print(obj.divide())
 
 
 # 3. Implement the Complete Student Class
